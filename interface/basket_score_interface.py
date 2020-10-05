@@ -1,9 +1,9 @@
 import tkinter
 from tkinter import ttk
-from funcs.basket_score_funcs import Funcs
+import funcs.basket_score_funcs
 
 
-class Application(Funcs):
+class Application(funcs.basket_score_funcs.Funcs):
     """
     Classe Application
 
